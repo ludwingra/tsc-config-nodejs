@@ -3,19 +3,19 @@
 
 > This is the configuration that worked best for me to work with typescript in nodejs, besides being easy to configure the debug
 
-<hr>
+
 ### Create project nodejs 
 ```
     npm init -y
 ````
 
-<hr>
+
 ### Install Typescript, ts-node and nodemon
 ```
     npm install -D typescript ts-node nodemon
 ````
 
-<hr>
+
 ### Create file tsconfig 
 ```
     tsc --init
@@ -42,7 +42,6 @@
             ]
         }
 
-<hr>
 ### Create file nodemon 
 ```
     touch nodemon.json
@@ -61,7 +60,7 @@
         }
 
 
-<hr>
+
 ### Create script to run nodemo in development and start in production
 * In the package.json file in the scripts we add
     ````
@@ -73,7 +72,7 @@
             "dev": "nodemon"
         },
 
-<hr>
+
 ### Run environments
 * Run development environment 
     ````
