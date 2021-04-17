@@ -3,7 +3,7 @@
 
 > This is the configuration that worked best for me to work with typescript in nodejs, besides being easy to configure the debug
 
-<hr>
+
 ### Create project nodejs 
 ```
     npm init -y
